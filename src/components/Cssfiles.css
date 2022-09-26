@@ -1,0 +1,99 @@
+
+@media  (max-width: 400px) {
+   
+    .searchbar{
+        margin-top: 1%;
+        height: 35px;
+        width: 90%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border: none;
+        border-radius: 2px; 
+    font-size: 25px;
+        
+    }
+    .day{
+        width: 100%;
+        display: flex;
+        margin-left: 12%;
+        gap: 7%;
+        white-space: nowrap;
+        font-size:1rem;
+        overflow-inline: 1;
+        margin-bottom: 1rem;
+        overflow-x: scroll;
+    }
+}
+@media (max-width: 900px) {
+    .searchbar{
+        margin-top: 1%;
+        height: 35px;
+        width: 90%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border: none;
+        border-radius: 10px; 
+    font-size: 25px;
+        
+    }
+    .day{
+        margin-top: 2%;
+        display: flex;
+        margin-left: 8%;
+        gap: 10%;
+        white-space: nowrap;
+        font-size:1rem;
+        overflow-x: scroll;
+        margin-bottom: 1rem;
+    }
+}  
+@media (max-width: 1100px) {
+    .searchbar{
+        margin-top: 1%;
+    font-size: 25px;
+
+        height: 35px;
+        width: 90%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border: none;
+        border-radius: 10px; 
+        
+    }
+    .day{
+        margin-top: 2%;
+        display: flex;
+        margin-left: 8%;
+        gap: 10%;
+        white-space: nowrap;
+        font-size:1rem;
+        overflow-x: scroll;
+        margin-bottom: 1rem;
+    }
+} 
+.day{
+    height: 202px;
+    width: 85%;
+    display: flex;
+    margin-left: 8%;
+    gap: 12%;
+    overflow-x: auto;
+}
+.searchbar{
+    margin-top: 1%;
+    font-size: 25px;
+    height: 35px;
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    border-radius: 10px; 
+    /* background-color: rgb(182, 227, 227); */
+    
+}
+.flexdiv{
+    margin-top: 2%;
+}
+.chart{
+    height: 700px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+}
